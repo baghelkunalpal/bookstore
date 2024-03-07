@@ -6,7 +6,7 @@ const Favorite = () => {
 
   return (
     <div className="container mx-auto mt-8">
-      <h2 className="text-3xl font-semibold mb-4">Your Favorite Books</h2>
+      <h2 className="text-3xl font-semibold mb-4">Your Favorites Books</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <div className="bg-blue-500 text-whit flex items-center justify-center text-9xl leading-relaxed rounded-md shadow-inner font-extrabold mb-10">
           {favorites.length}
